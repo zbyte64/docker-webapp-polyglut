@@ -12,6 +12,6 @@ ENV LEIN_ROOT 1
 RUN lein
 RUN easy_install pip
 RUN pip install newrelic
-RUN gem install foreman
+RUN gem install bundler foreman
 RUN npm install -g bower
 
